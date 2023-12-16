@@ -39,3 +39,10 @@ Check build result
 cd app/build/outputs/apk/debug/
 ls -l
 ```
+
+For GitHub Codepsace Java issue
+
+```sh
+cd /home/codespace/java
+rm current && ln -sf /home/codespace/java/17.0.9-ms current
+```
