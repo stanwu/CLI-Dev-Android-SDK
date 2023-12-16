@@ -39,4 +39,4 @@ export LD_LIBRARY_PATH="$ANDROID_HOME/emulator/lib64:$ANDROID_HOME/emulator/lib6
 
 echo "This template is compatible with Java versions below 17.0.9."
 javac -version
-wich javac
+which javac
