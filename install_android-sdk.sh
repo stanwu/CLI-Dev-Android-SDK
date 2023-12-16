@@ -1,15 +1,20 @@
 #!/bin/bash
 
+# Version of tools
+. ./install_android-sdk.bashrc 
+
+# Dump Env
+echo "List of SDK versions ready for installation:"
+echo "============================================"
+echo GRADLE_VERSION=$GRADLE_VERSION
+echo ANDROID_API_LEVEL=$ANDROID_API_LEVEL
+echo ANDROID_BUILD_TOOLS_LEVEL=$ANDROID_BUILD_TOOLS_LEVEL
+echo ANDROID_NDK_VERSION=$ANDROID_NDK_VERSION
+
 if [ $UID -gt 0 ]; then
 	echo "You need run as root"
 	exit 1
 fi
-
-# Version of tools
-export GRADLE_VERSION=6.3
-export ANDROID_API_LEVEL=29
-export ANDROID_BUILD_TOOLS_LEVEL=29.0.3
-export ANDROID_NDK_VERSION=21.1.6352462
 
 sudo apt update -qq && apt install -qq -y unzip openjdk-8-jdk vim git unzip libglu1 libpulse-dev libasound2 libc6  libstdc++6 libx11-6 libx11-xcb1 libxcb1 libxcomposite1 libxcursor1 libxi6  libxtst6 libnss3 wget
 
