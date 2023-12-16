@@ -3,7 +3,7 @@
 Template for Android Development Environment (for CLI developer)
 You don't need to install any GUI or Desktop environment for your Android app development environment. 
 
-This template is for Ubuntu 22.04 LTS only
+This template is compatible with Java versions below 17.0.9.
 
 ### How to use this template?
 
