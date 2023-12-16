@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Written by Stan Ht. Wu (github-uh87y2@stanwu.org)
+
 # Version of tools
 . ./install_android-sdk.bashrc 
 
@@ -22,7 +24,7 @@ mkdir /opt/android \
 && mkdir /opt/android/cmdline-tools \
 && wget -q 'https://dl.google.com/android/repository/commandlinetools-linux-6200805_latest.zip' -P /tmp \
 && unzip -q -d /opt/android/cmdline-tools /tmp/commandlinetools-linux-6200805_latest.zip \
-&& yes Y | /opt/android/cmdline-tools/tools/bin/sdkmanager --install "build-tools;${ANDROID_BUILD_TOOLS_LEVEL}" "platforms;android-${ANDROID_API_LEVEL}" "platform-tools" "ndk;${ANDROID_NDK_VERSION}" \
+&& yes Y | /opt/android/cmdline-tools/tools/bin/sdkmanager --install "build-tools;${ANDROID_BUILD_TOOLS_LEVEL}" "platforms;android-${ANDROID_API_LEVEL}" "platform-tools" \
 && yes Y | /opt/android/cmdline-tools/tools/bin/sdkmanager --licenses
 
 echo "This template is compatible with Java versions below 17.0.9."
