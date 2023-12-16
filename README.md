@@ -16,13 +16,19 @@ cd /opt
 sudo chown -R $USER android gradle gradlew
 ```
 
-Try to build Hello World to make sure development environment is working now
+Test commands to make sure works
 
 ```sh
 cd ~/
+gradle
+gradlew
+```
+
+Try to build Hello World to make sure development environment is working now
+
+```sh
 git clone https://github.com/francohorita/android-hello-world.git
 cd android-hello-world
-gradle
 gradlew tasks
 gradlew assembledebug
 ```
