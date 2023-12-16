@@ -15,6 +15,8 @@ Try to build Hello World to make sure development environment is working now
 ```sh
 cd ~/
 git clone https://github.com/francohorita/android-hello-world.git
+cd android-hello-world
+gradle
 gradlew tasks
 gradlew assembledebug
 ```
