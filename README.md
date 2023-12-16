@@ -3,7 +3,7 @@
 Template for Android Development Environment (for CLI developer)
 You don't need to install any GUI or Desktop environment for your Android app development environment. 
 
-This template is compatible with Java versions below 17.0.9.
+**This template currently does not support Codespace, but it supports Gitpod and Google Cloud Platform.**
 
 ### How to use this template?
 
