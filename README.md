@@ -1,5 +1,7 @@
 # Template-Dev-Android-SDK
-Template for Android Development Environment
+
+Template for Android Development Environment (for CLI developer)
+You don't need to install any GUI or Desktop environment for your Android app development environment. 
 
 This template is for Ubuntu 22.04 LTS only
 
