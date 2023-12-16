@@ -20,3 +20,10 @@ gradle
 gradlew tasks
 gradlew assembledebug
 ```
+
+Check build result
+
+```sh
+cd app/build/outputs/apk/debug/
+ls -l
+```
