@@ -32,6 +32,8 @@ export PATH="$PATH:$JAVA_HOME/bin:$ANDROID_HOME/emulator:$ANDROID_HOME/cmdline-t
 export LD_LIBRARY_PATH="$ANDROID_HOME/emulator/lib64:$ANDROID_HOME/emulator/lib64/qt/lib"
 ```
 
+**!!! NOTICE: You need close current bash or zsh then open again**
+
 For GitHub Codepsace Java issue
 
 ```sh
