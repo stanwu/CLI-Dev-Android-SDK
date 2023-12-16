@@ -42,6 +42,7 @@ rm current && ln -sf /usr/lib/jvm/java-11-openjdk-amd64 current
 Try to build Hello World to make sure development environment is working now
 
 ```sh
+cd ~
 git clone https://github.com/chiuki/android-hello-world.git
 cd android-hello-world
 ./gradlew tasks
