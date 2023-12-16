@@ -5,7 +5,7 @@ This template is for Ubuntu 22.04 LTS only
 
 ```sh
 sudo ./install_android-sdk.sh
-cat install_android-sdk.bashrc >> ~/.bashrc
+cat ./install_android-sdk.bashrc >> ~/.bashrc
 cd /opt
 sudo chown -R $USER android gradle gradlew
 ```
