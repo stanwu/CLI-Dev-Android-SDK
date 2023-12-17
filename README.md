@@ -7,6 +7,14 @@ You don't need to install any GUI or Desktop environment for your Android app de
 
 ### How to use this template?
 
+*1. Quick method:*
+
+```sh
+curl -q "https://raw.githubusercontent.com/stanwu/CLI-Dev-Android-SDK/main/install_android-sdk.sh" | bash
+```
+
+*2. Integrate into project:*
+
 You just need to copy **install_android-sdk.sh** and **install_android-sdk.bashrc**, these two files, into your Android App Project's source code. 
 or just open this project with Codespaces, Gitpod, VScode Server or SSH, it's simple!
 
