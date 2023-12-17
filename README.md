@@ -26,7 +26,7 @@ or just open this project with Codespaces, Gitpod, VScode Server or SSH, it's si
 
 *Remote Development using SSH*
 
-![Screenshot SSH](https://private-user-images.githubusercontent.com/121381/291023152-fc11a93c-2f7b-4ea1-afc9-a4e1be021be0.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDI3Nzc4NjAsIm5iZiI6MTcwMjc3NzU2MCwicGF0aCI6Ii8xMjEzODEvMjkxMDIzMTUyLWZjMTFhOTNjLTJmN2ItNGVhMS1hZmM5LWE0ZTFiZTAyMWJlMC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMxMjE3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMTIxN1QwMTQ2MDBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1hNTFjMWYwMGRlZGJlNzI5NmZmNGE3ZGVlM2Y2NWViY2Q3MmMwNTZlNDNmNzIyYzdhNGViZWQ4NGUwMWNjNmYyJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.5xW-E9g0cZLUUe_N4LTMmoiDJi_Njd_1rdqc1FeAlN8)
+![Screenshot SSH](https://github-production-user-asset-6210df.s3.amazonaws.com/121381/291112591-8d081223-6533-4e74-b625-389563cdc650.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20231217%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231217T233827Z&X-Amz-Expires=300&X-Amz-Signature=b26cb1000f3cac1cbc54f5c37cd808fa8e6fe4bbeb8337276c117184caeb49a9&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=0)
 
 ### Support Platforms (Tested 2023/12/17)**
 
