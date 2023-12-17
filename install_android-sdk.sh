@@ -14,8 +14,13 @@ export ANDROID_NDK_HOME="${ANDROID_HOME}/ndk/${ANDROID_NDK_VERSION}"
 export GRADLE_VERSION="7.4"
 export GRADLE_HOME="/opt/gradle/gradle-$GRADLE_VERSION"
 
-# Version of tools
-. ./install_android-sdk.bashrc 
+function envrc() {
+echo '
+export ANDROID_HOME="${HOME}/android/sdk"
+export JAVA_HOME="/usr/lib/jvm/java-11-openjdk-amd64"
+export PATH="$PATH:${JAVA_HOME}/bin:${ANDROID_HOME}/tools/bin:${ANDROID_HOME}/cmdline-tools/tools/bin:${ANDROID_HOME}/platform-tools:${ANDROID_HOME}/emulator"
+'
+}
 
 # Dump Env
 echo "List of SDK versions ready for installation:"
@@ -51,11 +56,11 @@ fi
 
 [ -f ~/.bashrc ] && \
 if ! grep -q "ANDROID_HOME" ~/.bashrc; then
-   cat install_android-sdk.bashrc >> ~/.bashrc
+   envrc >> ~/.bashrc
 fi
 
 [ -f ~/.zshrc ] && \
 if ! grep -q "ANDROID_HOME" ~/.zshrc; then
-   cat install_android-sdk.bashrc >> ~/.zshrc
+   envrc >> ~/.zshrc
 fi
 
