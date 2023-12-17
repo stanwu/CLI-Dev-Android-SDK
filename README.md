@@ -10,7 +10,7 @@ You don't need to install any GUI or Desktop environment for your Android app de
 You just need to copy **install_android-sdk.sh** and **install_android-sdk.bashrc**, these two files, into your Android App Project's source code. 
 or just open this project with Codespaces, Gitpod, VScode Server or SSH, it's simple!
 
-![截圖 2023-12-17 09 02 34](https://gist.github.com/assets/121381/c148fae8-a1f7-4973-92da-f60550359044)
+![Screenshot](https://github-production-user-asset-6210df.s3.amazonaws.com/121381/291022047-c148fae8-a1f7-4973-92da-f60550359044.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20231217%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231217T011234Z&X-Amz-Expires=300&X-Amz-Signature=5e91ac07f0794099915681226fea97f4676cee57235cb7f544ea459f2460bdc9&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=0)
 
 Support Platforms:
 
