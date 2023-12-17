@@ -1,4 +1,4 @@
-# Template-Dev-Android-SDK for CLI developer
+# Template Dev Android SDK for CLI developer
 
 Template for Android Development Environment
 You don't need to install any GUI or Desktop environment for your Android app development environment. 
