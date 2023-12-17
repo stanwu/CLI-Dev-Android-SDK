@@ -1,6 +1,6 @@
-# Template-Dev-Android-SDK
+# Template-Dev-Android-SDK for CLI developer
 
-Template for Android Development Environment (for CLI developer)
+Template for Android Development Environment
 You don't need to install any GUI or Desktop environment for your Android app development environment. 
 
 ### How to use this template?
@@ -19,22 +19,11 @@ Build Development Environment
 
 ```sh
 sudo ./install_android-sdk.sh
-cd /opt
-sudo chown -R $USER android
 ```
 
-Add below to .bashrc or .zshrc
+**!!! NOTICE: You need close current bash or zsh then open again after installed**
 
-```sh
-export ANDROID_HOME="/opt/android"
-export JAVA_HOME="/usr/lib/jvm/java-11-openjdk-amd64"
-export PATH="$PATH:$JAVA_HOME/bin:$ANDROID_HOME/emulator:$ANDROID_HOME/cmdline-tools/tools/bin:$ANDROID_HOME/platform-tools:${ANDROID_NDK_HOME}"
-export LD_LIBRARY_PATH="$ANDROID_HOME/emulator/lib64:$ANDROID_HOME/emulator/lib64/qt/lib"
-```
-
-**!!! NOTICE: You need close current bash or zsh then open again**
-
-For GitHub Codepsace Java issue
+For GitHub Codepsace Java 11 issue, please check your Java version
 
 ```sh
 cd /home/codespace/java
