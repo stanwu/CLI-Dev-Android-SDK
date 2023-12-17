@@ -1,12 +1,16 @@
-# Template Dev Android SDK for CLI developer
+# Template Remote Dev App Android SDK for CLI developer
 
 Template for Android Development Environment
-You don't need to install any GUI or Desktop environment for your Android app development environment. 
+You don't need to install any GUI or Desktop environment for your Android app development environment.
+
+> You can develop an Android app remotely from anywhere; all you need is a browser or SSH.
 
 ### How to use this template?
 
 You just need to copy **install_android-sdk.sh** and **install_android-sdk.bashrc**, these two files, into your Android App Project's source code. 
-or just open this project with Codespaces or Gitpod, it's simple!
+or just open this project with Codespaces, Gitpod, VScode Server or SSH, it's simple!
+
+![截圖 2023-12-17 09 02 34](https://gist.github.com/assets/121381/c148fae8-a1f7-4973-92da-f60550359044)
 
 Support Platforms:
 
