@@ -15,14 +15,14 @@ curl -q "https://raw.githubusercontent.com/stanwu/CLI-Dev-Android-SDK/main/insta
 
 **Method 2. Integrate into project:**
 
-You just need to copy **install_android-sdk.sh** and **install_android-sdk.bashrc**, these two files, into your Android App Project's source code. 
-or just open this project with Codespaces, Gitpod, VScode Server or SSH, it's simple!
+You just need to copy **install_android-sdk.sh** into your Android App Project's source code. 
+or just open this project with Codespaces, Gitpod or git clone via SSH, it's simple!
 
 **Screenshot demo**
 
 *Remote Development using Web Browser*
 
-![Screenshot Web](https://github-production-user-asset-6210df.s3.amazonaws.com/121381/291022047-c148fae8-a1f7-4973-92da-f60550359044.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20231217%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231217T011234Z&X-Amz-Expires=300&X-Amz-Signature=5e91ac07f0794099915681226fea97f4676cee57235cb7f544ea459f2460bdc9&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=0)
+![Screenshot Web](https://private-user-images.githubusercontent.com/121381/291113337-a72cef55-5b8e-435f-8099-955345bfcf60.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDI4NTc2MDAsIm5iZiI6MTcwMjg1NzMwMCwicGF0aCI6Ii8xMjEzODEvMjkxMTEzMzM3LWE3MmNlZjU1LTViOGUtNDM1Zi04MDk5LTk1NTM0NWJmY2Y2MC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMxMjE3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMTIxN1QyMzU1MDBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0zMzc5ZWQzYzE5NmQ0ZDJmOWY0NzM1ODQ4YTk3M2Y5N2YxMjI2MTYwNmJjOWMyZTRmNTdkNzdmMTM3MWJkMTk4JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.tdElSJENFHDCPzOnqVgUTFe2bkZ5z2bf3lPw3aiudDA)
 
 *Remote Development using SSH*
 
