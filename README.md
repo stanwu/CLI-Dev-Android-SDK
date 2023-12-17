@@ -5,7 +5,8 @@ You don't need to install any GUI or Desktop environment for your Android app de
 
 ### How to use this template?
 
-You just need to copy **install_android-sdk.sh** and **install_android-sdk.bashrc**, these two files, into your Android App Project's source code. It's simple!
+You just need to copy **install_android-sdk.sh** and **install_android-sdk.bashrc**, these two files, into your Android App Project's source code. 
+or just open this project with Codespaces or Gitpod, it's simple!
 
 Support Platforms:
 
