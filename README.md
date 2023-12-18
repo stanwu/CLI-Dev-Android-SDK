@@ -40,7 +40,7 @@ or just open this project with Codespaces, Gitpod or git clone via SSH, it's sim
 **Build Development Environment**
 
 ```sh
-sudo ./install_android-sdk.sh
+./install_android-sdk.sh
 ```
 
 > NOTICE: You need close current bash or zsh then open again after installed
