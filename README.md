@@ -9,9 +9,9 @@ You don't need to install any GUI or Desktop environment for your Android app de
 
 **Method 1. Quick method:**
 
-```sh
-# Please click on the right-side copy icon to copy this super long command
+> NOTICE: Please click on the right-side copy icon to copy this super long command
 
+```sh
 curl -q "https://raw.githubusercontent.com/stanwu/CLI-Dev-Android-SDK/main/install_android-sdk.sh" | bash
 ```
 
@@ -43,7 +43,7 @@ or just open this project with Codespaces, Gitpod or git clone via SSH, it's sim
 sudo ./install_android-sdk.sh
 ```
 
-**!!! NOTICE: You need close current bash or zsh then open again after installed**
+> NOTICE: You need close current bash or zsh then open again after installed
 
 For GitHub Codepsace Java 11 issue, please check your Java version
 
