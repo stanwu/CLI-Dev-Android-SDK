@@ -30,7 +30,7 @@ or just open this project with Codespaces, Gitpod or git clone via SSH, it's sim
 
 ![Screenshot SSH](https://github-production-user-asset-6210df.s3.amazonaws.com/121381/291112591-8d081223-6533-4e74-b625-389563cdc650.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20231217%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231217T233827Z&X-Amz-Expires=300&X-Amz-Signature=b26cb1000f3cac1cbc54f5c37cd808fa8e6fe4bbeb8337276c117184caeb49a9&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=0)
 
-### Support Platforms (Tested 2023/12/17)**
+### Support Platforms (Tested 2023/12/17)
 
 - GitHub Codespaces
 - Gitpod
