@@ -46,7 +46,7 @@ else
 	wget -q "https://dl.google.com/android/repository/commandlinetools-linux-6200805_latest.zip" -P /tmp \
 	&& echo "Installation SDK" \
 	&& unzip -q -d ${ANDROID_HOME}/cmdline-tools /tmp/commandlinetools-linux-6200805_latest.zip \
-	&& yes Y | ${ANDROID_HOME}/cmdline-tools/tools/bin/sdkmanager --install "build-tools;${ANDROID_BUILD_TOOLS_LEVEL}" "platforms;android-${ANDROID_API_LEVEL}" "platform-tools" \
+	&& yes Y | ${ANDROID_HOME}/cmdline-tools/tools/bin/sdkmanager --install "build-tools;${ANDROID_BUILD_TOOLS_LEVEL}" "platform-tools" \
 	&& yes Y | ${ANDROID_HOME}/cmdline-tools/tools/bin/sdkmanager --licenses
 
 	echo "This template is compatible with Java 11"
